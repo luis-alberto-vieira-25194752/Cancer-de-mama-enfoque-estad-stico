@@ -29,7 +29,8 @@ División de datos: Separación de los datos en conjuntos de entrenamiento y pru
 ## Conclusión
 Al optimizar el modelo de regresión logística, se observó que se ajusta adecuadamente a las variables, con un pseudo R-cuadrado de 0.9152, indicando que explica aproximadamente el 91.52% de la variabilidad. El p-valor significativo (5.376e-136) sugiere que el modelo es preciso. De los 16 coeficientes de regresión, seis son significativos: texture_mean, concavity_mean, area_se, symmetry_se, fractal_dimension_se y symmetry_worst. Los coeficientes positivos (texture_mean, concavity_mean, area_se, symmetry_worst) aumentan la probabilidad de que el tumor sea maligno, mientras que los negativos (symmetry_se, fractal_dimension_se) la disminuyen.
 En la matriz de confusión de los datos de entrenamiento, el modelo predijo correctamente el 98.24% de los casos, con un 1.76% de errores. En los datos de prueba, el modelo mantuvo una exactitud del 98.24%, reduciendo el número de falsos negativos de 7 a 5. Estos resultados indican que el modelo de regresión logística es altamente preciso y eficiente para la detección de cáncer de mama.
-Inspiración y agradecimiento
+
+## Inspiración y agradecimiento
 Este proyecto se inspiró en este trabajo compartido en Kaggle Feature Selection and Data Visualization (kaggle.com), el cual ofreció valiosas percepciones sobre el aprendizaje. Agradezco enormemente al autor por compartir su conocimiento y recursos con la comunidad de código abierto.
 
 ## Estado del proyecto
